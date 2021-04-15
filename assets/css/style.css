@@ -1,0 +1,36 @@
+
+/* .d_bug [class*="bar"] {
+    height: 150px;
+    width: 100vw;
+    background-color:rgb(101, 226, 43);
+    border:1px solid black
+} */
+
+.r_aw{
+    position: relative;
+}
+.nav_bar{
+    height: 20vh;
+    width: 100vw;
+    background-color:rgb(101, 226, 43);
+    z-index: 1;
+}
+
+.side_bar{
+    height: 80vh;
+    width: 20vw;
+    background-color:black;
+    position: absolute;
+    z-index: 2;
+}
+.foot_raw{
+    position: relative;
+}
+.play_music{
+    height: 20vh;
+    width: 100vw;
+    position: absolute;
+    top: 60vh;
+    background-color:yellow;
+    z-index: 3;
+}
