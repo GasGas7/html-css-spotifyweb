@@ -1,36 +1,31 @@
-
-/* .d_bug [class*="bar"] {
-    height: 150px;
-    width: 100vw;
-    background-color:rgb(101, 226, 43);
-    border:1px solid black
+/* 
+.d_bug [class*="col-"] {
+    height: 2000px;
 } */
 
-.r_aw{
-    position: relative;
+.side_bar{
+    background-color: yellow;
+    height: 100vh;
+}
+.nav_bar_main{
+    background-color: turquoise;
 }
 .nav_bar{
-    height: 20vh;
-    width: 100vw;
-    background-color:rgb(101, 226, 43);
-    z-index: 1;
+    background-color: slateblue;
 }
-
-.side_bar{
+.albums{
     height: 80vh;
-    width: 20vw;
-    background-color:black;
-    position: absolute;
-    z-index: 2;
+    overflow: scroll;
 }
-.foot_raw{
+#site_footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.foot_row{
     position: relative;
 }
 .play_music{
-    height: 20vh;
-    width: 100vw;
-    position: absolute;
-    top: 60vh;
-    background-color:yellow;
-    z-index: 3;
+    background-color: red;
+    
 }
