@@ -4,6 +4,9 @@ body{
     height: 100vh; 
     width: 100%;
 }
+#site_main{
+    height: calc(100vh - 80px);
+}
 ul{
     list-style: none;
 }
@@ -22,6 +25,11 @@ a{
 .side_bar .logo img:last-child{
     display: none;
 }
+.side_bar .top_menu{
+    height: 70%;
+    overflow-y: hidden;
+}
+
 /* home_menu */
 .home_menu ul{
     margin-bottom: 0;
@@ -45,11 +53,12 @@ a{
 
 /* playlist */
 .playlist{
-    height: 450px;
+    height: 60%;
+    overflow-y: hidden;
 }
 .playlist .list_play{
     height: 70%;
-    overflow-y:hidden;
+    overflow-y:auto;
 }
 .playlist ul li {
     font-size: 12px;
@@ -108,7 +117,16 @@ a{
 
 
 
-
+/* nav_bar */
+.nav_bar .list-group-item{
+    
+    
+    width: max-content;
+    color: white;
+    border-radius: 25px;
+    border: 1px solid white;
+    background-color: transparent;
+}
 
 
 
@@ -128,7 +146,7 @@ a{
     background-color: slateblue;
 }
 .container-fluid .row.row-cols-2{
-    height: 100vh;
+    height: 100%;
 }
 .albums{
     height:calc(100vh - 160px);
