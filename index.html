@@ -9,7 +9,7 @@
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <!-- Google icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Favicon -->
     <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
     <!-- Font -->
@@ -100,7 +100,7 @@
                 <!-- 11 colonna sotto sm - 10 colonne sopra sm -->
                 <div class="col-11 col-sm-10">
                     <!-- row navbar-album -->
-                    <div class="nav_bar_main row">
+                    <div class="nav_bar_album row">
                         <div class="nav_bar d-flex align-items-center justify-content-end">
                             <a href="#" class="btn_upgrade">EFFETTUA L'UPGRADE</a>
                         </div>
@@ -121,7 +121,7 @@
             <div class="container-fluid">
                 <div class="row foot_raw">
                     <!-- left footer -->
-                    <div class="left_footer col-3 col-lg-2 track d-flex align-items-center">
+                    <div class="left_footer col-3 col-lg-2 d-flex align-items-center">
                         
                         <div class="d-flex image-fluid">
                             <img src="./assets/img/sinister.jpeg" alt="">
@@ -141,14 +141,32 @@
                     <!-- /left footer -->
 
                     <!-- center footer -->
-                    <div class="center_footer col-4 offset-1 col-lg-6 offset-lg-1 controller">
+                    <div class="center_footer col-4 offset-1 col-lg-6 offset-lg-1 text-center">
+                        <div class="control_btn d-flex justify-content-center">
+                            <i class="fas fa-random"></i>
+                            <i class="fas fa-step-backward"></i>
+                            <i class="far fa-play-circle"></i>
+                            <i class="fas fa-step-forward"></i>
+                            <i class="fas fa-redo-alt"></i>
+                        </div>
+                        <div>
 
+                            <div class="time_track d-flex justify-content-center">
+                                <span>0:25</span>
+                                <div class="graybar d-flex justify-content-left">
+                                    <div class="whitebar"></div>
+                                </div>
+                                <span>4:35</span>
+                            </div>
+
+                        </div>
+                                               
                     </div>
                     <!-- /center footer -->
 
                     <!-- right footer -->
-                    <div class="right_footer col-4 col-lg-2 offset-lg-1 volume">
-
+                    <div class="right_footer col-4 col-lg-2 offset-lg-1">
+                        
                     </div>
                     <!-- /right footer -->
                 </div>
