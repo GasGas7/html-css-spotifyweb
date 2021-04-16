@@ -33,8 +33,7 @@ a{
 
 /**** top_meu *****/
 .side_bar .top_menu{
-    height: 70%;
-    overflow-y: hidden;
+    height: 80%;
 }
 
 /* home_menu */
@@ -60,7 +59,7 @@ a{
 
 /* playlist */
 .playlist{
-    height: 60%;
+    height: 50%;
     overflow-y: hidden;
 }
 .playlist .list_play{
@@ -170,6 +169,10 @@ a{
 
 #site_footer{
     height: 80px;
-    position: relative;
-    z-index: 9;
-}
+    width: 100%;
+    background-color: crimson;
+    position: fixed;
+    z-index: 2;
+    bottom: 0; 
+    left: 0;
+}   
