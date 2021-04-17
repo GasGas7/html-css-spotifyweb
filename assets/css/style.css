@@ -216,21 +216,9 @@ a{
     padding: 0.2rem;
     margin: 0 2rem;
 }
-/* /CENTER FOOTER */
-
-/* RIGHT FOOTER */
-#site_footer .right_footer{
-    background-color: darkgoldenrod;
-    padding: 0;
-    height: 80px;
-}
-/* /RIGHT FOOTER */
-/* *********************** /FOOTER ********************** */
-
 .time_track span{
     font-size: 10px;
-    margin-top: 0.65rem;
-    color: white;
+    margin-top: 0.2rem;
 }
 
 .time_track .graybar{
@@ -239,7 +227,7 @@ a{
     height: 5px;
     border-radius: 50px;
     background-color: grey;
-    margin:1rem 1rem 0 1rem;   
+    margin: 0.5rem 1rem 0 1rem;   
 }
 
 .time_track .whitebar{
@@ -248,3 +236,32 @@ a{
     border-radius: 50px;
     background-color: white;
 }
+/* /CENTER FOOTER */
+
+/* RIGHT FOOTER */
+#site_footer .right_footer{
+    /* padding:0 30px; */
+}
+#site_footer .right_footer div:not(.whitebar_volume){
+    margin: 0 0 0 20px;
+}
+#site_footer .right_footer div:not(:last-child){
+    color: white;
+    
+}
+.right_footer .graybar_volume{
+    width: 150px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: grey;
+       
+}
+.right_footer .whitebar_volume{
+    width: 50px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: white;
+}
+/* /RIGHT FOOTER */
+/* *********************** /FOOTER ********************** */
+
