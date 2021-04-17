@@ -26,7 +26,7 @@
             <!--  -->
             <div class="row">
                 <!-- 1 colonna sotto sm - 2 colonne sopra sm -->
-                <div class="col-1 col-sm-2">
+                <div class="col-1 col-sm-4 col-md-3 col-lg-2">
                     <!-- row sidebar -->
                     <div class="side_bar row flex-column justify-content-between">
 
@@ -43,15 +43,24 @@
                             <!-- menu -->
                             <div class="home_menu d-flex justify-content-start ">
                                 <ul class="p-0">
-                                    <li><a id="hometxt" href="#"><img src="./assets/img/home.svg" alt="">Home</a></li>
-                                    <li><a href="#"><img src="./assets/img/search.svg" alt="">Cerca</a></li>
-                                    <li><a href="#"><img src="./assets/img/libreria.svg" alt="">La tua libreria</a></li>
+                                    <li class="image-fluid">
+                                        <img src="./assets/img/home.svg" alt="">
+                                        <a id="hometxt" href="#">Home</a>
+                                    </li>
+                                    <li class="image-fluid">
+                                        <img src="./assets/img/search.svg" alt="">
+                                        <a href="#">Cerca</a>
+                                    </li>
+                                    <li class="image-fluid">
+                                        <img src="./assets/img/libreria.svg" alt="">
+                                        <a href="#">La tua libreria</a>
+                                    </li>
                                 </ul>
                             </div>
                             <!-- /menu -->
 
                             <!-- playlist -->
-                            <div class="playlist d-flex flex-column justify-content-start ">
+                            <div class="playlist flex-column justify-content-start ">
                                 <!-- lista playlist -->
                                 <h6>PLAYLIST</h6>
                                 <span><i class="fas fa-plus"></i> Crea la tua playlist</span>
@@ -98,7 +107,7 @@
                 <!-- /1 colonna sotto sm - 2 colonne sopra sm -->
 
                 <!-- 11 colonna sotto sm - 10 colonne sopra sm -->
-                <div class="col-11 col-sm-10">
+                <div class="col-11 col-sm-8 col-md-9 col-lg-10">
                     <!-- row navbar-album -->
                     <div class="nav_bar_album row">
                         <div class="nav_bar d-flex align-items-center justify-content-end">
@@ -117,69 +126,65 @@
     <!-- Site_Main -->
 
     <footer id="site_footer">
-        <section class="player">
-            <div class="container-fluid">
-                <div class="row foot_raw">
-                    <!-- left footer -->
-                    <div class="left_footer col-3 col-lg-2 d-flex align-items-center">
+        <div class="container-fluid">
+            <div class="row foot_raw">
+                <!-- left footer -->
+                <div class="left_footer col-3 col-sm-4 col-md-3 col-lg-2 d-flex align-items-center">
                         
-                        <div class="d-flex image-fluid">
-                            <img src="./assets/img/sinister.jpeg" alt="">
-                            <div class="track_title d-flex flex-column justify-content-center">
-                                <span class="text-white">Sinister</span>
-                                <span>Brano Nome</span>
-                            </div>
+                    <div class="d-flex image-fluid">
+                        <img src="./assets/img/sinister.jpeg" alt="">
+                        <div class="track_title d-flex flex-column justify-content-center">
+                            <span class="text-white">Sinister</span>
+                            <span>Brano Nome</span>
                         </div>
-                                               
-                        <div class="favorites_icon d-flex">
-                            <i class="far fa-heart"></i>
-                            <i class="far fa-folder"></i>
-                        </div>
-
                     </div>
-                    <!-- /left footer -->
+                                               
+                    <div class="favorites_icon d-flex">
+                        <i class="far fa-heart"></i>
+                        <i class="far fa-folder"></i>
+                    </div>
 
-                    <!-- center footer -->
-                    <div class="center_footer col-4 offset-1 col-lg-6 offset-lg-1">
+                </div>
+                <!-- /left footer -->
 
-                        <!-- icons player -->
-                        <div class="control_btn d-flex justify-content-center">
-                            <i class="fas fa-random"></i>
-                            <i class="fas fa-step-backward"></i>
-                            <i class="far fa-play-circle"></i>
-                            <i class="fas fa-step-forward"></i>
-                            <i class="fas fa-redo-alt"></i>
+                <!-- center footer -->
+                <div class="center_footer col-4 offset-1 col-sm-4 col-md-4 offset-md-1 col-lg-6 offset-lg-1">
+
+                    <!-- icons player -->
+                    <div class="control_btn d-flex justify-content-center">
+                        <i class="fas fa-random"></i>
+                        <i class="fas fa-step-backward"></i>
+                        <i class="far fa-play-circle"></i>
+                        <i class="fas fa-step-forward"></i>
+                        <i class="fas fa-redo-alt"></i>
+                    </div>
+                    <!-- /icons player -->
+
+                    <!-- time_line -->                     
+                    <div class="time_track d-flex justify-content-center">
+                        <span>0:25</span>
+                        <div class="graybar d-flex justify-content-left">
+                            <div class="whitebar"></div>
                         </div>
-                        <!-- /icons player -->
-
-                        <!-- time_line -->                     
-                        <div class="time_track d-flex justify-content-center">
-                                <span>0:25</span>
-                                <div class="graybar d-flex justify-content-left">
-                                    <div class="whitebar"></div>
-                                </div>
-                                <span>4:35</span>
-                        </div>                     
+                        <span>4:35</span>
+                    </div>                     
                         <!-- time_line -->
 
-                    </div>
-                    <!-- /center footer -->
-
-                    <!-- right footer -->
-                    <div class="right_footer col-4 col-lg-2 offset-lg-1 d-flex align-items-center">
-                            <div><i class="fas fa-list"></i></div>
-                            <div><i class="fas fa-desktop"></i></div>
-                            <div><i class="fas fa-volume-up"></i></div>
-                            <div class="graybar_volume d-flex justify-content-left">
-                                <div class="whitebar_volume">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /right footer -->
                 </div>
+                <!-- /center footer -->
+
+                <!-- right footer -->
+                <div class="right_footer col-4 col-sm-4 col-md-3 offset-md-1 col-lg-2 offset-lg-1 d-flex justify-content-between align-items-center">
+                    <div><i class="fas fa-list"></i></div>
+                    <div><i class="fas fa-desktop"></i></div>
+                    <div><i class="fas fa-volume-up"></i></div>
+                    <div class="graybar_volume d-flex justify-content-left">
+                            <div class="whitebar_volume"></div>
+                    </div>
+                </div>
+                <!-- /right footer -->
             </div>
-        </section>
+        </div>   
     </footer>
 </body>
 </html>

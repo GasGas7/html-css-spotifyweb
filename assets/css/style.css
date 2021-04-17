@@ -50,7 +50,7 @@ a{
     font-size: 12px;
     font-weight: 600;
 }
-.home_menu ul li a img{
+.home_menu ul li img{
     height: 30px;
     margin-right: 10px;
 }
@@ -61,6 +61,7 @@ a{
 
 /* playlist */
 .playlist{
+    display: flex;
     height: 50%;
     overflow-y: hidden;
 }
@@ -81,10 +82,10 @@ a{
     color: #A3A3A3;
 }
 .playlist span i{
-    font-size: 30px;
-    padding: 10px 12px;
+    font-size: 18px;
+    padding: 7px 7px;
     margin-right: 20px;
-    color:white;
+    color:black;
     background-color: #A3A3A3;
 }
 /* /playlist */
@@ -219,8 +220,8 @@ a{
 .time_track span{
     font-size: 10px;
     margin-top: 0.2rem;
+    color:white;
 }
-
 .time_track .graybar{
     
     width: 500px;
@@ -229,7 +230,6 @@ a{
     background-color: grey;
     margin: 0.5rem 1rem 0 1rem;   
 }
-
 .time_track .whitebar{
     width: 150px;
     height: 5px;
@@ -239,25 +239,22 @@ a{
 /* /CENTER FOOTER */
 
 /* RIGHT FOOTER */
-#site_footer .right_footer{
-    /* padding:0 30px; */
-}
 #site_footer .right_footer div:not(.whitebar_volume){
-    margin: 0 0 0 20px;
+    margin: 0 0 0 0px;
 }
 #site_footer .right_footer div:not(:last-child){
     color: white;
     
 }
 .right_footer .graybar_volume{
-    width: 150px;
+    width: 100px;
     height: 5px;
     border-radius: 50px;
     background-color: grey;
        
 }
 .right_footer .whitebar_volume{
-    width: 50px;
+    width: 30px;
     height: 5px;
     border-radius: 50px;
     background-color: white;
@@ -265,3 +262,79 @@ a{
 /* /RIGHT FOOTER */
 /* *********************** /FOOTER ********************** */
 
+
+
+/* *********************** MEDIA QUERY ********************** */
+
+/* // Small devices (smaller phones, between 320px and 575.98px ) */
+@media (max-width: 575.98px){
+
+    /* ***************** SIDEBAR **************** */
+    /* *** top menu *** */
+    /* **** logo img **** */
+    .side_bar .top_menu{
+        padding: 0;
+    }
+    .side_bar .logo img{
+        width: 80%;
+        margin-left: 5px;
+    }
+    .side_bar .logo img:first-child{
+        display: none;
+    }
+    .side_bar .logo img:last-child{
+        display: block;
+    }
+    /* **** /logo img **** */
+    
+    /* home_menu */
+    .home_menu ul li a {
+        display: none;
+    }
+    .home_menu ul li img{
+        width: 100%;
+        margin-right: 10px;
+    }
+    /* /home_menu */
+
+    /* playlist */
+    .playlist{
+        display: none;!important
+    }
+    /* /playlist */
+    /* *** /top menu *** */
+    /* bottom menu */
+    .bottom_menu{
+        display: none;
+    }
+     /* /bottom menu */
+    /* ***************** /SIDEBAR **************** */
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+/* 
+// XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
+
+/* *********************** /MEDIA QUERY ********************** */
