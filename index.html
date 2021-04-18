@@ -43,15 +43,15 @@
                             <!-- menu -->
                             <div class="home_menu d-flex justify-content-start ">
                                 <ul class="p-0">
-                                    <li class="image-fluid">
+                                    <li>
                                         <img src="./assets/img/home.svg" alt="">
                                         <a id="hometxt" href="#">Home</a>
                                     </li>
-                                    <li class="image-fluid">
+                                    <li>
                                         <img src="./assets/img/search.svg" alt="">
                                         <a href="#">Cerca</a>
                                     </li>
-                                    <li class="image-fluid">
+                                    <li>
                                         <img src="./assets/img/libreria.svg" alt="">
                                         <a href="#">La tua libreria</a>
                                     </li>
@@ -89,11 +89,13 @@
                             <!-- User Id -->
                             <div class="download_app">
                                 <div class="dnld">
-                                    <a href="#"> <img id="download" src="./assets/img/download.svg" alt=""> Installa app</a>
+                                    <img id="download" class="image-fluid" src="./assets/img/download.svg" alt="">
+                                    <a href="#">  Installa app</a>
                                 </div>
                                 
                                 <div class="user">
-                                    <span><img id="profile" src="./assets/img/profile.svg" alt=""> John Doe</span>
+                                    <img id="profile" class="image-fluid" src="./assets/img/profile.svg" alt="">
+                                    <span> John Doe</span>
                                 </div>
                             </div>
                             <!-- /User Id -->
@@ -114,7 +116,80 @@
                             <a href="#" class="btn_upgrade">EFFETTUA L'UPGRADE</a>
                         </div>
                         <div class="albums">
-                            
+                            <div class="filter_album">
+                                <span>in evidenza</span>
+                                <span>podcast</span>
+                                <span>classifiche</span>
+                                <span>generi e mood</span>
+                                <span>nuove uscite</span>
+                                <span>scopri</span>
+                            </div>
+                            <!-- Suonati di recente -->
+                            <h2>Recently Played</h2>
+                            <div class="album_image d-flex justify-content-start flex-wrap">
+                                <div class="album_cover text-center">
+                                   <img src="./assets/img/metal_lifting.jpg" alt="">
+                                   <h6>Heavy metal</h6>
+                                   <span>subtitle</span>
+                                </div>
+                                <div class="album_cover text-center">
+                                    <img src="./assets/img/metal_lifting.jpg" alt="">
+                                    <h6>Heavy metal</h6>
+                                    <span>subtitle</span>
+                                 </div>
+                                 <div class="album_cover text-center">
+                                    <img src="./assets/img/metal_lifting.jpg" alt="">
+                                    <h6>Heavy metal</h6>
+                                    <span>subtitle</span>
+                                 </div>
+                                 <div class="album_cover text-center">
+                                    <img src="./assets/img/metal_lifting.jpg" alt="">
+                                    <h6>Heavy metal</h6>
+                                    <span>subtitle</span>
+                                 </div>
+                                 <div class="album_cover text-center">
+                                    <img src="./assets/img/metal_lifting.jpg" alt="">
+                                    <h6>Heavy metal</h6>
+                                    <span>subtitle</span>
+                                 </div>
+                                 <div class="album_cover text-center">
+                                    <img src="./assets/img/metal_lifting.jpg" alt="">
+                                    <h6>Heavy metal</h6>
+                                    <span>subtitle</span>
+                                 </div>
+                            </div>
+                            <!-- Suonati di recente -->
+
+                            <!--Create for John Doe  -->
+                            <h2>Create for John Doe</h2>
+                            <div class="for_john_doe d-flex justify-content-start flex-wrap">
+                                <div class="album_cover text-center">
+                                   <img src="./assets/img/metal_lifting.jpg" alt="">
+                                   <h6>Heavy metal</h6>
+                                   <span>subtitle</span>
+                                </div>
+                                <div class="album_cover text-center">
+                                    <img src="./assets/img/metal_lifting.jpg" alt="">
+                                    <h6>Heavy metal</h6>
+                                    <span>subtitle</span>
+                                 </div>
+                            </div>
+                            <!--/Create for John Doe  -->
+                            <!-- Artisti più popolari -->
+                            <h2>Popular Artist</h2>
+                            <div class="popular_artist d-flex justify-content-start flex-wrap">
+                                <div class="album_cover text-center">
+                                   <img src="./assets/img/metal_lifting.jpg" alt="">
+                                   <h6>Heavy metal</h6>
+                                   <span>subtitle</span>
+                                </div>
+                                <div class="album_cover text-center">
+                                    <img src="./assets/img/metal_lifting.jpg" alt="">
+                                    <h6>Heavy metal</h6>
+                                    <span>subtitle</span>
+                                 </div>
+                            </div>
+                            <!-- /Artisti più popolari -->
                         </div>
                     </div>
                     <!-- /row navbar-album -->
@@ -129,17 +204,18 @@
         <div class="container-fluid">
             <div class="row foot_raw">
                 <!-- left footer -->
-                <div class="left_footer col-3 col-sm-4 col-md-3 col-lg-2 d-flex align-items-center">
+                <div class="left_footer col-3 col-sm-4 col-md-3 col-lg-2 align-items-center justify-content-between">
                         
-                    <div class="d-flex image-fluid">
+                    <div class="album_img_title justify-content-center;
+                    align-items-center image-fluid">
                         <img src="./assets/img/sinister.jpeg" alt="">
-                        <div class="track_title d-flex flex-column justify-content-center">
-                            <span class="text-white">Sinister</span>
+                        <div class="track_title justify-content-center">
+                            <span>Sinister</span>
                             <span>Brano Nome</span>
                         </div>
                     </div>
                                                
-                    <div class="favorites_icon d-flex">
+                    <div class="favorites_icon">
                         <i class="far fa-heart"></i>
                         <i class="far fa-folder"></i>
                     </div>
@@ -151,7 +227,7 @@
                 <div class="center_footer col-4 offset-1 col-sm-4 col-md-4 offset-md-1 col-lg-6 offset-lg-1">
 
                     <!-- icons player -->
-                    <div class="control_btn d-flex justify-content-center">
+                    <div class="control_btn justify-content-center">
                         <i class="fas fa-random"></i>
                         <i class="fas fa-step-backward"></i>
                         <i class="far fa-play-circle"></i>
@@ -174,13 +250,16 @@
                 <!-- /center footer -->
 
                 <!-- right footer -->
-                <div class="right_footer col-4 col-sm-4 col-md-3 offset-md-1 col-lg-2 offset-lg-1 d-flex justify-content-between align-items-center">
-                    <div><i class="fas fa-list"></i></div>
-                    <div><i class="fas fa-desktop"></i></div>
-                    <div><i class="fas fa-volume-up"></i></div>
-                    <div class="graybar_volume d-flex justify-content-left">
-                            <div class="whitebar_volume"></div>
+                <div class="right_footer col-4 col-sm-4 col-md-3 offset-md-1 col-lg-2 offset-lg-1 d-flex justify-content-center align-items-center">
+                    <div class="contenitoreicone d-flex align-items-center">
+                        <div><i class="fas fa-list"></i></div>
+                        <div><i class="fas fa-desktop"></i></div>
+                        <div><i class="fas fa-volume-up"></i></div>
+                        <div class="graybar_volume d-flex justify-content-left">
+                                <div class="whitebar_volume"></div>
+                        </div>   
                     </div>
+                    
                 </div>
                 <!-- /right footer -->
             </div>
