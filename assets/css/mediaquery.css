@@ -1,5 +1,6 @@
 /* *********************** MEDIA QUERY ********************** */
 
+
 /* // Small devices (smaller phones, between 320px and 575.98px ) */
 @media (max-width: 575.98px){
 
@@ -281,6 +282,9 @@
     /* ***************** /FOOTER **************** */
     /* /Left Footer */
 }
+
+
+/* // X-Large devices (ultrawide desktops, 1400px and up) */
 @media (min-width: 1400px) {
     .left_footer .album_img_title img{
         width: 45%;
@@ -294,5 +298,6 @@
         font-size: 15px;
     }
 }
+
 
 /* *********************** /MEDIA QUERY ********************** */
