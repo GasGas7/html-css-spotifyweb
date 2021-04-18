@@ -217,15 +217,19 @@
 
     /* ***************** FOOTER **************** */
     /* Left Footer */
+    .left_footer .album_img_title img{
+        width: 45%;
+        margin-top: 10px;
+    }
     .left_footer .track_title span{
-        font-size: 10px;
+        font-size: 9px;
         line-height: 15px;
     }
     .left_footer .favorites_icon{
         flex-direction: row;
     }
     .left_footer .favorites_icon i{
-        font-size: 14px;
+        font-size: 10px;
         padding:10px 0 0 5px;
     }
     /* /Left Footer */
@@ -262,12 +266,33 @@
 
     /* ***************** FOOTER **************** */
     /* Left Footer */
+    .left_footer .album_img_title img{
+        width: 45%;
+        margin-top: 10px;
+    }
+    .left_footer .track_title span{
+        font-size: 11px;
+        line-height: 20px;
+    }
     .left_footer .favorites_icon i{
-        font-size: 18px;
+        font-size: 12px;
         padding:10px 0 0 10px;
     }
     /* ***************** /FOOTER **************** */
     /* /Left Footer */
+}
+@media (min-width: 1400px) {
+    .left_footer .album_img_title img{
+        width: 45%;
+        margin-top: 10px;
+    }
+    .left_footer .track_title span{
+        font-size: 14px;
+        
+    }
+    .left_footer .favorites_icon i{
+        font-size: 15px;
+    }
 }
 
 /* *********************** /MEDIA QUERY ********************** */

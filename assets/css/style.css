@@ -197,7 +197,7 @@ h2{
     color: #A3A3A3;
     font-size: 0.8rem;
     text-transform: uppercase;
-    padding-right: 40px;
+    padding: 0 10px;
 }
 .albums .filter_album ul li a:hover{
     color: chartreuse;
