@@ -12,21 +12,28 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Favicon -->
     <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
-    <!-- Font -->
+    <!-- Font google -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Spotify</title>
+    <!-- MediaQuery -->
+    <link rel="stylesheet" href="./assets/css/mediaquery.css">
 </head>
 <body>
     <!-- Site_Main -->
     <main id="site_main">
+
+        <!-- Container fluid -->
         <div class="container-fluid">
-            <!--  -->
+
+            <!-- Row del container fluid -->
             <div class="row">
+
                 <!-- 1 colonna sotto sm - 2 colonne sopra sm -->
                 <div class="col-1 col-sm-4 col-md-3 col-lg-2">
+
                     <!-- row sidebar -->
                     <div class="side_bar row flex-column justify-content-between">
 
@@ -81,7 +88,7 @@
                             <!-- /playlist -->
 
                         </div>
-                        <!-- top menu -->
+                        <!-- /top menu -->
 
                         <!-- botton menu -->
                         <div class="bottom_menu">
@@ -101,108 +108,173 @@
                             <!-- /User Id -->
 
                         </div>
-                        <!-- botton menu -->
+                        <!-- /botton menu -->
                         
                     </div>
                     <!-- /row sidebar-->
+
                 </div>
                 <!-- /1 colonna sotto sm - 2 colonne sopra sm -->
 
                 <!-- 11 colonna sotto sm - 10 colonne sopra sm -->
                 <div class="col-11 col-sm-8 col-md-9 col-lg-10">
+
                     <!-- row navbar-album -->
                     <div class="nav_bar_album row">
+
+                        <!-- Navbar upgrade -->
                         <div class="nav_bar d-flex align-items-center justify-content-end">
                             <a href="#" class="btn_upgrade">EFFETTUA L'UPGRADE</a>
                         </div>
-                        <div class="albums">
-                            <div class="filter_album">
-                                <span>in evidenza</span>
-                                <span>podcast</span>
-                                <span>classifiche</span>
-                                <span>generi e mood</span>
-                                <span>nuove uscite</span>
-                                <span>scopri</span>
-                            </div>
-                            <!-- Suonati di recente -->
-                            <h2>Recently Played</h2>
-                            <div class="album_image d-flex justify-content-start flex-wrap">
-                                <div class="album_cover text-center">
-                                   <img src="./assets/img/metal_lifting.jpg" alt="">
-                                   <h6>Heavy metal</h6>
-                                   <span>subtitle</span>
-                                </div>
-                                <div class="album_cover text-center">
-                                    <img src="./assets/img/metal_lifting.jpg" alt="">
-                                    <h6>Heavy metal</h6>
-                                    <span>subtitle</span>
-                                 </div>
-                                 <div class="album_cover text-center">
-                                    <img src="./assets/img/metal_lifting.jpg" alt="">
-                                    <h6>Heavy metal</h6>
-                                    <span>subtitle</span>
-                                 </div>
-                                 <div class="album_cover text-center">
-                                    <img src="./assets/img/metal_lifting.jpg" alt="">
-                                    <h6>Heavy metal</h6>
-                                    <span>subtitle</span>
-                                 </div>
-                                 <div class="album_cover text-center">
-                                    <img src="./assets/img/metal_lifting.jpg" alt="">
-                                    <h6>Heavy metal</h6>
-                                    <span>subtitle</span>
-                                 </div>
-                                 <div class="album_cover text-center">
-                                    <img src="./assets/img/metal_lifting.jpg" alt="">
-                                    <h6>Heavy metal</h6>
-                                    <span>subtitle</span>
-                                 </div>
-                            </div>
-                            <!-- Suonati di recente -->
+                        <!-- /Navbar upgrade -->
 
-                            <!--Create for John Doe  -->
+
+                        <!-- Albums -->
+                        <div class="albums">
+
+                            <!-- FILTRI MENU -->
+                            <div class="filter_album">
+                                <ul>
+                                    <li><a href="#">in evidenza</a></li>
+                                    <li><a href="#">podcast</a></li>
+                                    <li><a href="#">classifiche</a></li>
+                                    <li><a href="#">generi e mood</a></li>
+                                    <li><a href="#">nuove uscite</a></li>
+                                    <li><a href="#">scopri</a></li>
+                                </ul>
+                            </div>
+                            <!-- /FILTRI MENU -->
+
+                            <!-- RIPRODOTTI DI RECENTE -->
+                            <h2>Recently Played</h2>
+                            <div class="album_firstrow d-flex flex-wrap"> 
+
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <div class="album_cover maring_t_r_10 image-fluid text-center">
+                                        <img src="./assets/img/metal_lifting.jpg" alt="">
+                                        <h6>Heavy metal</h6>
+                                        <span>subtitle</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <div class="album_cover maring_t_r_10 image-fluid  text-center">
+                                        <img src="./assets/img/stranger.jpeg" alt="">
+                                        <h6>Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</h6>
+                                        <span>Kyle Dixon & Michael Stein</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <div class="album_cover maring_t_r_10 image-fluid text-center">
+                                        <img src="./assets/img/aquietplace.jpeg" alt="">
+                                        <h6>A quiet place</h6>
+                                        <span>subtitle</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <div class="album_cover maring_t_r_10 image-fluid text-center">
+                                        <img src="./assets/img/split.jpeg" alt="">
+                                        <h6>Split</h6>
+                                        <span>subtitle</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <div class="album_cover maring_t_r_10 image-fluid text-center">
+                                        <img src="./assets/img/cure.jpeg" alt="">
+                                        <h6>A cure for wellness</h6>
+                                        <span>subtitle</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <div class="album_cover maring_t_r_10 image-fluid text-center">
+                                        <img src="./assets/img/sinister.jpeg" alt="">
+                                        <h6>Heavy metal</h6>
+                                        <span>subtitle</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- /RIPRODOTTI DI RECENTE -->
+
+
+                            <!-- ARTISTI PIU ASCOLTATI -->
                             <h2>Create for John Doe</h2>
-                            <div class="for_john_doe d-flex justify-content-start flex-wrap">
-                                <div class="album_cover text-center">
-                                   <img src="./assets/img/metal_lifting.jpg" alt="">
-                                   <h6>Heavy metal</h6>
-                                   <span>subtitle</span>
+                            <span>Più ascolti, più accurati saranno i suggerimenti.</span>
+                            <div class="album_secondrow d-flex flex-wrap">
+                                
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <div class="album_cover maring_t_r_10 image-fluid text-center">
+                                        <img src="./assets/img/radar.jpeg" alt="">
+                                        <h6>Release Radar</h6>
+                                     </div>
                                 </div>
-                                <div class="album_cover text-center">
-                                    <img src="./assets/img/metal_lifting.jpg" alt="">
-                                    <h6>Heavy metal</h6>
-                                    <span>subtitle</span>
-                                 </div>
+
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <div class="album_cover maring_t_r_10 image-fluid text-center">
+                                        <img src="./assets/img/mixdaily.jpeg" alt="">
+                                        <h6>Daily Mix 1</h6>
+                                     </div>
+                                </div>
+
                             </div>
-                            <!--/Create for John Doe  -->
-                            <!-- Artisti più popolari -->
+                            <!-- /ARTISTI PIU ASCOLTATI -->
+
+
+                            <!-- ARTISTI POPOLARI -->
                             <h2>Popular Artist</h2>
-                            <div class="popular_artist d-flex justify-content-start flex-wrap">
-                                <div class="album_cover text-center">
-                                   <img src="./assets/img/metal_lifting.jpg" alt="">
-                                   <h6>Heavy metal</h6>
-                                   <span>subtitle</span>
+                            <span>Più ascolti, più accurati saranno i suggerimenti.</span>
+                            <div class="album_thirdrow d-flex flex-wrap">
+                                
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <div class="album_cover maring_t_r_10 image-fluid text-center">
+                                        <img src="./assets/img/youg.jpeg" alt="">
+                                        <h6>Lana Del Rey</h6>
+                                        <span>subtitle</span>
+                                     </div>
                                 </div>
-                                <div class="album_cover text-center">
-                                    <img src="./assets/img/metal_lifting.jpg" alt="">
-                                    <h6>Heavy metal</h6>
-                                    <span>subtitle</span>
-                                 </div>
+
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <div class="album_cover maring_t_r_10 image-fluid text-center">
+                                        <img src="./assets/img/einaudi.jpeg" alt="">
+                                        <h6>Ludovico Einaudi</h6>
+                                        <span>subtitle</span>
+                                     </div>
+                                </div>
+
                             </div>
-                            <!-- /Artisti più popolari -->
+                            <!-- /ARTISTI POPOLARI -->
+
                         </div>
+                        <!-- /Albums -->
+                        
                     </div>
                     <!-- /row navbar-album -->
+
                 </div>
                 <!-- /11 colonna sotto sm - 10 colonne sopra sm -->
-            </div>
-        </div>
-    </main>
-    <!-- Site_Main -->
 
+            </div>
+            <!-- /Row del container fluid -->
+
+        </div>
+        <!-- /Container fluid -->
+
+    </main>
+    <!-- /Site_Main -->
+
+    <!-- Site_Footer -->
     <footer id="site_footer">
+
+        <!-- Container-fluid -->
         <div class="container-fluid">
+
+            <!-- Row-container-fluid -->
             <div class="row foot_raw">
+
                 <!-- left footer -->
                 <div class="left_footer col-3 col-sm-4 col-md-3 col-lg-2 align-items-center justify-content-between">
                         
@@ -251,6 +323,7 @@
 
                 <!-- right footer -->
                 <div class="right_footer col-4 col-sm-4 col-md-3 offset-md-1 col-lg-2 offset-lg-1 d-flex justify-content-center align-items-center">
+
                     <div class="contenitoreicone d-flex align-items-center">
                         <div><i class="fas fa-list"></i></div>
                         <div><i class="fas fa-desktop"></i></div>
@@ -262,8 +335,14 @@
                     
                 </div>
                 <!-- /right footer -->
+
             </div>
-        </div>   
+            <!-- /Row-container-fluid -->
+
+        </div>
+        <!-- /Container-fluid --> 
+          
     </footer>
+    <!-- /Site_Footer -->
 </body>
 </html>

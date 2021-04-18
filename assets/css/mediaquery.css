@@ -1,0 +1,273 @@
+/* *********************** MEDIA QUERY ********************** */
+
+/* // Small devices (smaller phones, between 320px and 575.98px ) */
+@media (max-width: 575.98px){
+
+    /* ***************** SIDEBAR **************** */
+    /* *** top menu *** */
+    /* **** logo img **** */
+    .side_bar .top_menu{
+        padding: 0;
+        height: 60%;
+    }
+    .side_bar .logo img{
+        width: 80%;
+        margin-left: 5px;
+    }
+    .side_bar .logo img:first-child{
+        display: none;
+    }
+    .side_bar .logo img:last-child{
+        display: block;
+    }
+    /* **** /logo img **** */
+    
+    /* home_menu */
+    .home_menu ul li a {
+        display: none;
+    }
+    .home_menu ul li img{
+        width: 100%;
+        margin-right: 10px;
+    }
+    /* /home_menu */
+
+    /* playlist */
+    .playlist{
+        display: none;
+    }
+    /* /playlist */
+    /* *** /top menu *** */
+    /* bottom menu */
+    .download_app a{
+        display: none;
+    }
+    .download_app span{
+        display: none;
+    }
+    #download{
+        width: 100%;
+        margin: 0 0px 0 0;
+    }
+    #profile {
+        width: 100%;
+    }
+    .download_app{
+        margin-bottom: 20px;
+    }
+     /* /bottom menu */
+    /* ***************** /SIDEBAR **************** */
+
+
+    /* ***************** FOOTER **************** */
+    /* Left Footer */
+    .left_footer .album_img_title img{
+        width:100%;
+        height: 100%;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+    .left_footer .track_title span{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .left_footer .track_title span:first-child{
+        margin-top: 10px;
+    }
+    .left_footer .favorites_icon{
+        flex-direction: column;
+    }
+    .left_footer .favorites_icon i{
+        padding: 12px 0 0 10px;
+        font-size: 14px;
+    }
+    /* /Left Footer */
+
+    /* Center Footer */
+    .center_footer .control_btn{
+        font-size: 0.8rem;  
+    }
+    .center_footer .control_btn i:not(:nth-child(3)){
+        padding: 10px 10px;
+    }
+    .center_footer .control_btn i:nth-child(3){
+        font-size: 1.5rem;
+        margin: 0 0.7rem;
+    }
+    .time_track .whitebar{
+        width: 30px;
+    }
+    /* /Center Footer */
+
+    /* Right Footer */
+    #site_footer .right_footer div i{
+        font-size: 12px;
+        padding-right: 10px;
+    }
+    .right_footer .graybar_volume{
+        width: 80px;
+    }
+    /* /Right Footer */
+    /* ***************** /FOOTER **************** */
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px){
+
+    /* ***************** SIDEBAR **************** */
+    /* playlist */
+    .playlist span{
+        font-size: 10px;
+    }
+    /* /playlist */
+    /* ***************** /SIDEBAR **************** */
+
+    /* ***************** FOOTER **************** */
+    /* Left Footer */
+    .left_footer .album_img_title img{
+        width: 45px;
+        margin-top: 10px;
+    }
+    .left_footer .track_title span{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .left_footer .track_title span:first-child{
+        margin-top: 10px;
+    }
+    .left_footer .favorites_icon{
+        flex-direction: column;
+    }
+    .left_footer .favorites_icon i{
+        font-size: 14px;
+    }
+    /* /Left Footer */
+
+    /* Center Footer */
+    .center_footer .control_btn{
+        font-size: 0.8rem;  
+    }
+    .center_footer .control_btn i:not(:nth-child(3)){
+        padding: 10px 10px;
+    }
+    .center_footer .control_btn i:nth-child(3){
+        font-size: 1.5rem;
+        margin: 0 0.7rem;
+    }
+    .time_track .whitebar{
+        width: 30px;
+    }
+    /* /Center Footer */
+
+    /* Right Footer */
+    #site_footer .right_footer div i{
+        padding-right: 10px;
+        font-size: 12px;
+    }
+    .right_footer .graybar_volume{
+        width: 80px;
+    }
+    /* /Right Footer */
+    /* ***************** /FOOTER **************** */
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    /* ***************** SIDEBAR **************** */
+    /* playlist */
+    .playlist span{
+        font-size: 15px;
+    }
+    /* /playlist */
+    /* ***************** /SIDEBAR **************** */
+
+    /* ***************** FOOTER **************** */
+    /* Left Footer */
+    .left_footer .track_title span{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .left_footer .favorites_icon{
+        flex-direction: row;
+    }
+    .left_footer .favorites_icon i{
+        font-size: 18px;
+    }
+    /* Left Footer */
+    /* ***************** /FOOTER **************** */
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    /* ***************** SIDEBAR **************** */
+    /* playlist */
+    .playlist span{
+        font-size: 12px;
+    }
+    .playlist ul li {
+        font-size: 10px;
+    }
+    /* /playlist */
+    /* ***************** /SIDEBAR **************** */
+
+    /* ***************** FOOTER **************** */
+    /* Left Footer */
+    .left_footer .track_title span{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .left_footer .favorites_icon{
+        flex-direction: row;
+    }
+    .left_footer .favorites_icon i{
+        font-size: 14px;
+        padding:10px 0 0 5px;
+    }
+    /* /Left Footer */
+
+    /* Center Footer */
+    .center_footer .control_btn{
+        font-size: 1.1rem;
+    }
+    .center_footer .control_btn i:not(:nth-child(3)){
+        padding: 10px 30px;
+    }
+    .center_footer .control_btn i:nth-child(3){
+        font-size: 2rem;
+        margin: 0 2rem;
+    }
+    .time_track .whitebar{
+        width: 150px;
+    }
+    /* Center Footer */
+    /* ***************** /FOOTER **************** */
+}
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    /* ***************** SIDEBAR **************** */
+    /* playlist */
+    .playlist span{
+        font-size: 15px;
+    }
+    /* /playlist */
+    /* ***************** /SIDEBAR **************** */
+
+    /* ***************** FOOTER **************** */
+    /* Left Footer */
+    .left_footer .favorites_icon i{
+        font-size: 18px;
+        padding:10px 0 0 10px;
+    }
+    /* ***************** /FOOTER **************** */
+    /* /Left Footer */
+}
+
+/* *********************** /MEDIA QUERY ********************** */
