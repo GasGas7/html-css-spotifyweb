@@ -12,8 +12,11 @@
         height: 60%;
     }
     .side_bar .logo img{
-        width: 80%;
+        width: 75%;
         margin-left: 5px;
+    }
+    .side_bar .logo img:hover{
+        width: 80%;
     }
     .side_bar .logo img:first-child{
         display: none;
@@ -66,7 +69,7 @@
     /* ***************** FOOTER **************** */
     /* Left Footer */
     .left_footer .album_img_title img{
-        width:100%;
+        width:50%;
         height: 100%;
         margin-right: 5px;
         margin-top: 10px;
@@ -121,7 +124,10 @@
 
     /* ***************** SIDEBAR **************** */
     /* playlist */
-    .playlist span{
+    .playlist .create span{
+        font-size: 11px;
+    }
+    .playlist ul li {
         font-size: 10px;
     }
     /* /playlist */
@@ -181,14 +187,6 @@
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-    /* ***************** SIDEBAR **************** */
-    /* playlist */
-    .playlist span{
-        font-size: 15px;
-    }
-    /* /playlist */
-    /* ***************** /SIDEBAR **************** */
-
     /* ***************** FOOTER **************** */
     /* Left Footer */
     .left_footer .track_title span{
@@ -206,17 +204,6 @@
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
-    /* ***************** SIDEBAR **************** */
-    /* playlist */
-    .playlist span{
-        font-size: 12px;
-    }
-    .playlist ul li {
-        font-size: 12px;
-    }
-    /* /playlist */
-    /* ***************** /SIDEBAR **************** */
 
     /* ***************** FOOTER **************** */
     /* Left Footer */
@@ -239,10 +226,10 @@
 
     /* Center Footer */
     .center_footer .control_btn{
-        font-size: 1.1rem;
+        font-size: 0.8rem;
     }
     .center_footer .control_btn i:not(:nth-child(3)){
-        padding: 10px 30px;
+        padding: 15px 30px 0;
     }
     .center_footer .control_btn i:nth-child(3){
         font-size: 2rem;
@@ -261,8 +248,11 @@
 
     /* ***************** SIDEBAR **************** */
     /* playlist */
-    .playlist span{
+    .playlist .create span{
         font-size: 15px;
+    }
+    .playlist ul li {
+        font-size: 13px;
     }
     /* /playlist */
     /* ***************** /SIDEBAR **************** */
