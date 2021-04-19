@@ -39,14 +39,17 @@ a{
 /**** TOP MENU *****/
 .side_bar .top_menu{
     height: 80%;
+    
 }
 
 /* home_menu */
 .home_menu ul{
     margin-bottom: 0;
+    position: relative;
 }
 .home_menu ul li{
     margin: 10px 0;
+    cursor: pointer;
 }
 .home_menu ul li a {
     color: #A3A3A3;
@@ -59,6 +62,17 @@ a{
 }
 #hometxt{
     color:white;
+}
+.home_menu ul li:first-child::before {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 35px;
+    background-color: chartreuse;
+    position:absolute;
+    top: 10px;
+    right: 110%;
+    
 }
 /* /home_menu */
 
@@ -78,6 +92,7 @@ a{
 }
 .playlist span{
     color: #A3A3A3;
+    cursor: pointer;
 }
 .playlist span i{
     font-size: 18px;
@@ -190,14 +205,37 @@ h2{
     text-align: center;
     margin: 10px 0;
 }
-.albums .filter_album ul li{
-    display: inline;
+.albums .filter_album ul{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
+/* .albums .filter_album ul li{
+    display: inline;
+} */
 .albums .filter_album ul li a{
     color: #A3A3A3;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     text-transform: uppercase;
     padding: 0 10px;
+    
+}
+.albums .filter_album ul li:first-child{
+    position: relative;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;       CON DISPLAY:FLEX FUNZIONA MI VA OUTLINE IL LINK PER VIA DI COLUMN...Sarebbe da fixare*/
+}
+.albums .filter_album ul li:first-child::after{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: chartreuse;
+    position:absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .albums .filter_album ul li a:hover{
     color: chartreuse;
@@ -281,7 +319,7 @@ h6{
 .center_footer .control_btn{
     display: flex;
     font-size: 1.1rem;
-    margin-top: 10px;
+    margin-top: 5px;
     color: white;
 }
 .center_footer .control_btn i:not(:nth-child(3)){
