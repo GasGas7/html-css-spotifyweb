@@ -88,6 +88,10 @@
         padding: 12px 0 0 10px;
         font-size: 14px;
     }
+    .left_footer .favorites_icon i:hover{
+        color: white;
+        font-size: 16px;
+    }
     /* /Left Footer */
 
     /* Center Footer */
@@ -97,9 +101,15 @@
     .center_footer .control_btn i:not(:nth-child(3)){
         padding: 10px 10px;
     }
+    .center_footer .control_btn i:not(:nth-child(3)):hover{
+        font-size: 1.2rem;
+    }
     .center_footer .control_btn i:nth-child(3){
         font-size: 1.5rem;
         margin: 0 0.7rem;
+    }
+    .center_footer .control_btn i:nth-child(3):hover{
+        font-size:1.7rem;
     }
     .time_track .whitebar{
         width: 30px;
@@ -152,6 +162,10 @@
     .left_footer .favorites_icon i{
         font-size: 14px;
     }
+    .left_footer .favorites_icon i:hover{
+        color: white;
+        font-size: 20px;
+    }
     /* /Left Footer */
 
     /* Center Footer */
@@ -161,9 +175,15 @@
     .center_footer .control_btn i:not(:nth-child(3)){
         padding: 10px 10px;
     }
+    .center_footer .control_btn i:not(:nth-child(3)):hover{
+        font-size: 1.2rem;
+    }
     .center_footer .control_btn i:nth-child(3){
         font-size: 1.5rem;
         margin: 0 0.7rem;
+    }
+    .center_footer .control_btn i:nth-child(3):hover{
+        font-size:1.7rem;
     }
     .time_track .whitebar{
         width: 30px;
@@ -198,6 +218,11 @@
     }
     
     /* Left Footer */
+
+    /* Center Footer */
+    .center_footer .control_btn i:nth-child(3):hover{
+        font-size:2.3rem;
+    }
     /* ***************** /FOOTER **************** */
 }
 
