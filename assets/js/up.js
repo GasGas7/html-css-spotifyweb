@@ -38,4 +38,4 @@ document.getElementById("john_doe").innerHTML="John Doe diventa Don Joe con JS";
 
 /* A Cure for wellnes change  */
 
-document.getElementById("not_js").innerHTML="(Not made by Javascript ;'D....i feel ''valley of despair'' is so close)";
+document.getElementById("not_js").innerHTML="(Not made by Javascript ;'D....i feel '' VALLEY OF DESPAIR '' is so close)";
